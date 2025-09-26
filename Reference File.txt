@@ -1,0 +1,6 @@
+git clone [pasted github url] -> If not working, download git CLI
+
+Virtual Environment Creation 
+============================
+conda create -p venv python==3.12 -y
+conda activate venv/
