@@ -18,7 +18,7 @@ def predict_api():
     final_user_values = np.array(data).reshape(1, -1)
     transformed_user_values = scaler.transform(final_user_values)
     model_prediction = model.predict(transformed_user_values)
-
+    print(model_prediction)
     return jsonify(model_prediction[0])
 
 # driver code
