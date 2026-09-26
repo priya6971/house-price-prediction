@@ -1,0 +1,5 @@
+This is a demo file used to illustrate the
+core working of branch.
+Over here, we have added a new branch named
+"feature" so that we can work independently 
+for the development part.
